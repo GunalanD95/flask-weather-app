@@ -1,0 +1,26 @@
+*{
+    --gradinet: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+    box-sizing: border-box;
+    line-height: 1.24rem;
+    font-family: 'Montesarrat', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-image: url('/static/images/szabo-viktor-28ZbKOWiZfs-unsplash.jpg');
+}
+
+.box{
+    border-radius: 25px;
+    background: transparent;
+    color: #222;
+    height: 500px;
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
+}
