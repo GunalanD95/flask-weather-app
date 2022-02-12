@@ -27,15 +27,8 @@ def get_weather_res():
 
     weather = content['weather'][0]['main']
     temp = content['main']['temp']
-
-    context = {
-        'city_name': city_name,
-        'weather': weather,
-        'temp': temp,
-        'dayName': dayName,
-        'Month': Month
-    }
-    return render_template('index.html', context=context)
+    name = content['name']
+    return render_template('index.html', city_name= name,weather= weather,temp= temp,dayName= dayName,Month= Month)
 
 if __name__ == '__main__':
     app.run(debug=True)
