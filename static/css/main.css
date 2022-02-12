@@ -24,3 +24,51 @@ body{
     margin-right: auto;
     margin-top: 20rem;
 }
+
+.search{
+    border-radius: 25px;
+    background: transparent;
+    color: #222;
+    height: 500px;
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem; 
+}
+
+.search h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    color: #222;
+    font-weight: bold;
+}
+
+.search input{
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    background: #f2f2f2;
+    width: 100%;
+    font-size: 25px;
+}
+
+.search button{
+    width:250px;
+    margin-left: 230px;
+    margin-right: auto;
+    margin-top: 2rem; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: crimson;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.search button:hover{
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+}
